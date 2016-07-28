@@ -1,0 +1,7 @@
+mvn archetype:generate -DgroupId=abc.def -DartifactId=ghi -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+cd ghi
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rodrigovilar/ghi.git
+git push -u origin master
